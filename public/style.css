@@ -1,0 +1,16 @@
+* {
+  color: #111;
+  background-color: #fff;
+  font-family:"M PLUS 1 Code", monospace;
+}
+li {
+  line-height: 2;
+  a {
+    text-decoration: none;
+    color: #3a3;
+  }
+}
+hr {
+  border-width: 0.5px;
+  border-color: #eee;
+}
