@@ -3,6 +3,11 @@
   background-color: #fff;
   font-family:"M PLUS 1 Code", monospace;
 }
+body {
+  padding-top: 4em;
+  padding-left: 4em;
+  padding-bottom: 4em;
+}
 li {
   line-height: 2;
   a {
