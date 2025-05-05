@@ -1,21 +1,51 @@
 * {
   color: #111;
   background-color: #fff;
-  font-family:"M PLUS 1 Code", monospace;
+  font-family: "M PLUS 1 Code", monospace;
 }
+
 body {
-  padding-top: 4em;
-  padding-left: 4em;
-  padding-bottom: 4em;
+  padding: 4em;
 }
+
+logo {
+  display: block;
+  min-width: 188px;
+  min-height: 50px;
+  width: calc(188px * 3);
+  height: calc(50px * 3);
+  padding: 0;
+  margin: 0;
+  background-image: url("./img/TAPPOY_LOGO_B.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 4em;
+}
+
+content {
+  margin-top: 4em;
+}
+
 li {
   line-height: 2;
+
   a {
     text-decoration: none;
     color: #3a3;
   }
 }
+
 hr {
   border-width: 0.5px;
   border-color: #eee;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+p, pre, ul {
+  margin: 2em;
 }
