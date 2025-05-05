@@ -6,6 +6,8 @@
 
 body {
   padding: 4em;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 logo {
@@ -47,5 +49,5 @@ footer {
 }
 
 p, pre, ul {
-  margin: 2em;
+  margin: 1em;
 }
