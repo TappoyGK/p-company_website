@@ -1,7 +1,8 @@
 * {
   color: #111;
   background-color: #fff;
-  font-family: "M PLUS 1 Code", monospace;
+  font-family: "Noto Sans", "Noto Sans JP", sans-serif;
+  line-height: 2.0;
 }
 
 body {
@@ -26,12 +27,11 @@ logo {
 }
 
 content {
-  margin-top: 4em;
+  display: block;
+  margin-left: 2em;
 }
 
 li {
-  line-height: 2;
-
   a {
     text-decoration: none;
     color: #3a3;
@@ -41,6 +41,7 @@ li {
 hr {
   border-width: 0.5px;
   border-color: #eee;
+  margin: 2em 0;
 }
 
 footer {
@@ -48,6 +49,36 @@ footer {
   font-size: 0.8em;
 }
 
-p, pre, ul {
+.company-info {
   margin: 1em;
+}
+
+.company-info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+.company-info-table th {
+  text-align: left;
+  color: #666;
+  font-weight: normal;
+  padding: 0.4em 1em 0.4em 0;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 160px;
+}
+.company-info-table td {
+  padding: 0.4em 0;
+  vertical-align: top;
+}
+.company-info-table ul {
+  padding: 0;
+}
+.company-info-table li {
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
